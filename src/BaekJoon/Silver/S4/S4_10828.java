@@ -17,6 +17,7 @@ public class S4_10828 {
             StringTokenizer st = new StringTokenizer(br.readLine());
 
             String command = st.nextToken();
+
             if(command.equals("push")){
                 stack.push(Integer.parseInt(st.nextToken()));
                 continue;
